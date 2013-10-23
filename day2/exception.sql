@@ -52,6 +52,7 @@ BEGIN
   -- define the logic when to raise the defined exception
   if SQL%NOTFOUND then
     raise e_no_update;
+    -- raise_application_error(-20100, 'No rows is update');
   end if;
 EXCEPTION
   -- handle the defined exception
