@@ -2,10 +2,10 @@
 set serveroutput on
 
 --DECLARE
---  v_dept_name departments.department_id%TYPE;
+--  v_dept_id departments.department_id%TYPE;
 --BEGIN
 --  select department_id
---  into v_dept_name
+--  into v_dept_id
 --  from departments
 --  where department_name = 'Administration';
 --  dbms_output.put_line(v_dept_name);
